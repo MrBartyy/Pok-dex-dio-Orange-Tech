@@ -4,7 +4,7 @@
 
 
 
-<p> Para acessar o projeto basta acessar o <a href="">link</a> aqui marcado
+<p> Para acessar o projeto basta acessar o <a href="https://mrbartyy.github.io/Pok-dex-dio-Orange-Tech/">link</a> aqui marcado
 
 
 
@@ -39,7 +39,7 @@ para entrar em contato comigo é muito simples, é seguir o link abaixo:
 
 
 
-To access the project, just access the <a href="">link</a> marked here.
+To access the project, just access the <a href="https://mrbartyy.github.io/Pok-dex-dio-Orange-Tech/">link</a> marked here.
 
 
 
