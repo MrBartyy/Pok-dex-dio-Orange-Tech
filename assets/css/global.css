@@ -1,0 +1,97 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+.container{
+    margin: auto;
+}
+
+body {
+    background-color: #f6f8fc;
+}
+h1{
+    display: flex;
+}
+
+#pokedexLogo{
+    width: 25%;
+}
+
+#pokeSearch{
+    margin-left: 475px;
+    flex-direction: row;
+    width: 420px;
+    padding: 13px;
+    border-radius: 36px;
+    font-family: 'Roboto';
+    font-weight: 900;
+    text-align: center;
+}
+
+.content {
+    width: 100vw;
+    height: 100vh;
+    padding: 1rem;
+}
+
+@media screen and (max-width: 991px) {
+    h1 {
+        padding-bottom: 10px;
+        display: block;
+    }
+
+    div#searchBar {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+      
+    #pokedexLogo{
+        width: 100%;
+        margin-bottom: 25px;
+        flex-direction: row;
+    }
+    
+    #pokeSearch{
+        font-size: 20px;
+        margin-left: 0px;
+        
+        flex-direction: row;
+        width: 100%;
+    }
+
+    #loadMoreButton{
+        padding: 1rem;
+    }
+}
+
+
+@media screen and (min-width: 992px) {
+    .content {
+        max-width: 992px;
+        height: auto;
+        margin: 1rem auto;
+        border-radius: 1rem;
+    }
+    #pokedexLogo{
+        width: 25%;
+        margin-bottom: 15px;
+    }
+    
+    #pokeSearch {
+        margin-left: 249px;
+        /* width: 15px; */
+        padding: 13px;
+        border-radius: 36px;
+        font-family: 'Roboto';
+        font-weight: 900;
+        text-align: center;
+        flex-direction: column;
+        width: 100%;
+        font-size: 15px;
+    }
+
+    #loadMoreButton{
+        padding: 2rem;
+    }
+}
